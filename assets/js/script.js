@@ -2,8 +2,8 @@ $(document).ready(function(){
 	var repeat = setInterval(backgroundchange, 4500);
 	var current = 1;
 	function backgroundchange() {
-		var max = 6;
-		if (current > 5) {
+		var max = 5;
+		if (current > 4) {
 			current = 1;
 		} else {
 			current += 1;
