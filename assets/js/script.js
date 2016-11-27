@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var current = 1;
 	function backgroundchange() {
 		var max = 5;
-		if (current > 4) {
+		if (current > max - 1) {
 			current = 1;
 		} else {
 			current += 1;
