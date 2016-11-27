@@ -48,6 +48,9 @@ a:hover {
 	background-image: url("../img/back1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-transition: 1.3s;
+	-moz-transition: 1.3s;
+	-o-transition: 1.3s;
 	transition: 1.3s;
 }
 
@@ -62,7 +65,7 @@ a:hover {
 
 }
 
-#background_subtitle {
+#background_subtitle_wrapper {
 	position: absolute;
 	top: 60%;
 	left: 50%;
@@ -70,7 +73,14 @@ a:hover {
 	font-size: 1.5625em; /* 25px */
 	color: orange;
 	z-index: 10;
+}
 
+#background_subtitle {
+	color: orange;
+}
+
+#background_subtitle:hover {
+	color: #ffefd8;
 }
 
 #background-filter {

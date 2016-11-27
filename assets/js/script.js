@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var repeat = setInterval(backgroundchange, 4500);
 	var current = 1;
 	function backgroundchange() {
-		var max = 5;
+		var max = 6;
 		if (current > max - 1) {
 			current = 1;
 		} else {

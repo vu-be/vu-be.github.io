@@ -66,7 +66,15 @@ a:hover {
 	color: white;
 	width: auto;
 	text-align: center;
+	z-index: 10;
+}
 
+#banner_text:hover {
+	color: orange;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
 #banner_links {
@@ -209,6 +217,9 @@ a:hover {
 	transform: translateX(-50%);
 	visibility: visible;
 	opacity: 1;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 
 }
@@ -216,6 +227,9 @@ a:hover {
 .hidden {
 	visibility: hidden;
 	opacity: 0;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 
