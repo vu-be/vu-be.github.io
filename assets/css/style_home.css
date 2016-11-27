@@ -1,0 +1,80 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Marcellus SC', serif;
+	height: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: orange;
+}
+
+
+/* A1 LOGIN SECTION */
+
+#login_wrapper {
+	position: fixed;
+	height: 5%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+#login_text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 6.2%;
+	color: white;
+	font-size: 1em; /* standard size? */
+}
+
+/* A10 MAIN CONTENT */
+
+#background {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/back1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1.3s;
+}
+
+#background_title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6.25em; /* 100px */
+	color: white;
+	z-index: 10;
+
+}
+
+#background_subtitle {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.5625em; /* 25px */
+	color: orange;
+	z-index: 10;
+
+}
+
+#background-filter {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 100%;
+	width: 100%;
+}

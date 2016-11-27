@@ -1,0 +1,273 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Marcellus SC', serif;
+	height: 100%;
+	background-color: black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: orange;
+}
+
+
+/* A1 LOGIN SECTION */
+
+#login_wrapper {
+	position: fixed;
+	height: 5%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+#login_text {
+	position: absolute;
+	top: 52.5%;
+	transform: translateY(-50%);
+	right: 5%;
+	color: white;
+	font-size: 1em; /* standard size? */
+}
+
+/* A2 BANNER SECTION */
+
+#banner_wrapper {
+	position: absolute;
+	top: 5%;
+	height: 15%;
+	width: 100%;
+	background-color: #313233;
+	background-image: url("../img/emblem_2.png");
+	background-position: 1.25%;
+	background-size: 6.15%;
+	background-repeat: no-repeat;
+}
+
+#banner_text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 7.5%;
+	font-size: 3.75em; /* 60px */
+	color: white;
+	width: auto;
+	text-align: center;
+
+}
+
+#banner_links {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0%;
+	font-size: 1.5em; /* 60px */
+	color: white;
+	width: 100%;
+	text-align: right;
+	display: inline;
+	padding-right: 0px;
+	text-transform: uppercase;
+}
+
+.links {
+	display: inline;
+	margin-right: 5%;
+}
+
+#nav_wrapper {
+	display: none;
+}
+
+#guild_content {
+	position: absolute;
+	top: 20%;
+	height: 110%;
+	width: 100%;
+
+}
+
+.guild_about {
+	position: relative;
+	height: 95%;
+	width: 100%;
+}
+
+ #content_filter {
+	position: absolute;
+	width: 100%;
+	height: 380%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9;
+}
+
+#section_one {
+	background-image: url("../img/back9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+#section_two {
+ 	background-image: url("../img/back8.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#section_three {
+ 	background-image: url("../img/back7.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#section_four {
+ 	margin-bottom: 0%;
+	background-image: url("../img/back6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 85%;
+	width: 50%;
+/* 	background-color: rgba(0, 0, 0, 0.7); */
+	z-index: 10;
+}
+
+.section_header {
+	position: relative;
+	top: 5%;
+	left: 5%;
+	color: white;
+	font-size: 3em;
+	text-shadow: -1.5px 1.5px 1px black;
+	text-transform: uppercase;
+}
+
+/* .section_divider {
+	position: relative;
+	background-color: white;
+	height: 0.275%;
+	width: 75%;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-60%);
+}
+ */
+
+ .section_content {
+ 	position: relative;
+ 	width: 80%;
+	top: 10%;
+	left: 10%;
+	color: white;
+	font-size: 1em;
+	line-height: 2em;
+ }
+
+ #two_wrapper {
+ 	left: 30%;
+ }
+
+ #four_wrapper {
+ 	left: 70%;
+ }
+
+ @media screen and (max-width: 1024px) {
+
+ 	#banner_links {
+ 		display: none;
+ 	}
+
+ 	#nav_wrapper {
+ 		display: block;
+ 		position: absolute;
+ 		top: 20%;
+ 		height: 7.5%;
+ 		width: 100%;
+ 		background-color: black;
+ 		z-index: 10;
+ 	}
+
+	#nav_links {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 1.25em; /* 60px */
+		color: white;
+		height: 37.5%;
+		width: 100%;
+		text-align: center;
+		display: inline;
+		text-transform: uppercase;
+	}
+
+	.links {
+		display: inline;
+		margin-left: 6.25%;
+		margin-right: 6.25%;
+	}
+
+ 	#guild_content {
+ 		top: 30%;
+ 	}
+
+	.guild_about {
+		height: 67.5%;
+	}
+
+	#content_filter {
+		height: 270%;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+ 	.guild_about {
+ 		height: 75%;
+ 	}
+
+/*  	#section_one {
+ 		background-position: 0% 0%;
+ 		background-size: contain;
+ 	}
+
+ 	#section_two {
+ 		background-size: contain;
+ 	}
+
+ 	#section_three {
+ 		background-size: contain;
+ 	}
+
+ 	#section_four {
+ 		background-size: contain;
+ 	}
+ */
+
+ 	.section_header {
+ 		font-size: 3.5em;
+
+ 	}
+
+ 	.section_content {
+ 		font-size: 1.25em;
+ 	}
+
+ 	#content_filter {
+ 		height: 300%;
+ 	}
+ }
