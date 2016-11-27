@@ -309,7 +309,7 @@ a:hover {
  		display: block;
  		position: absolute;
  		top: 20%;
- 		height: 7.5%;
+ 		height: 6.5%;
  		width: 100%;
  		background-color: black;
  		z-index: 10;
@@ -321,12 +321,13 @@ a:hover {
 		transform: translateY(-50%);
 		font-size: 1.25em; /* 60px */
 		color: white;
-		height: 37.5%;
+		height: 50%;
 		width: 100%;
 		text-align: center;
 		display: inline;
 		text-transform: uppercase;
 	}
+
 
 	.links {
 		display: inline;
@@ -336,9 +337,6 @@ a:hover {
 
 	#member_info {
 		top: 20%;
-	}
-
-	#member_info {
 		height: 45%;
 	}
 
@@ -379,4 +377,26 @@ a:hover {
 		background-position: left -21.5em bottom -2.5em;
 	}
 
+}
+
+@media screen and (min-width: 1440px) {
+
+	#banner_links {
+		font-size: 1.75em;
+	}
+
+	.member_content:not(#member_stats) {
+		font-size: 1.25em;
+	}
+
+	.section_wrapper {
+		font-size: 1.15em;
+		padding-left: 15%;
+		padding-top: 10%;
+	}
+
+	#member_portrait {
+		background-size: cover;
+		background-position: left -12.5em bottom 0em;
+	}
 }

@@ -203,7 +203,7 @@ a:hover {
  		display: block;
  		position: absolute;
  		top: 20%;
- 		height: 7.5%;
+ 		height: 6.5%;
  		width: 100%;
  		background-color: black;
  		z-index: 10;
@@ -215,7 +215,7 @@ a:hover {
 		transform: translateY(-50%);
 		font-size: 1.25em; /* 60px */
 		color: white;
-		height: 37.5%;
+		height: 50%;
 		width: 100%;
 		text-align: center;
 		display: inline;
@@ -229,7 +229,7 @@ a:hover {
 	}
 
  	#guild_content {
- 		top: 30%;
+ 		top: 26.5%;
  	}
 
 	.guild_about {
@@ -244,31 +244,16 @@ a:hover {
 
 @media screen and (min-width: 1440px) {
 
+	#banner_links {
+		font-size: 1.75em;
+	}
+
  	.guild_about {
  		height: 75%;
  	}
-
-/*  	#section_one {
- 		background-position: 0% 0%;
- 		background-size: contain;
- 	}
-
- 	#section_two {
- 		background-size: contain;
- 	}
-
- 	#section_three {
- 		background-size: contain;
- 	}
-
- 	#section_four {
- 		background-size: contain;
- 	}
- */
-
+ 	
  	.section_header {
  		font-size: 3.5em;
-
  	}
 
  	.section_content {

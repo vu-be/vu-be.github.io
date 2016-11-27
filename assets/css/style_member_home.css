@@ -185,23 +185,20 @@ a:hover {
 }
 
 #member1 {
-	background-image: url("../img/sera2.png");
-	background-position: left -39em bottom -5em;
+	background-image: url("../img/member_1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 
 }
 
 #member2 {
-	background-image: url("../img/misoka4.png");
-	background-position: left -39em bottom -5em;
+	background-image: url("../img/member_2.png");
 	background-repeat: no-repeat;
 	background-size: cover; 	
 }
 
 #member3 {
-	background-image: url("../img/scahacht5.png");
-	background-position: left -35.5em bottom -5em;
+	background-image: url("../img/member_3.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -240,7 +237,7 @@ a:hover {
  		display: block;
  		position: absolute;
  		top: 20%;
- 		height: 7.5%;
+ 		height: 6.5%;
  		width: 100%;
  		background-color: black;
  		z-index: 10;
@@ -252,7 +249,7 @@ a:hover {
 		transform: translateY(-50%);
 		font-size: 1.25em; /* 60px */
 		color: white;
-		height: 37.5%;
+		height: 50%;
 		width: 100%;
 		text-align: center;
 		display: inline;
@@ -265,46 +262,41 @@ a:hover {
 		margin-right: 6.25%;
 	}
 
- 	#guild_content {
- 		top: 30%;
+ 	#member_content {
+ 		top: 26.5%;
  	}
 
-	.guild_about {
-		height: 67.5%;
+	.member_about {
+		height: 100%;
+	}
+
+	.section_wrapper {
+		background-position: -1.25em 0em;
+	}
+
+	.section_header {
+		font-size: 2em;
 	}
 
 	#content_filter {
-		height: 270%;
+		height: 100%;
 	}
 
 }
 
 @media screen and (min-width: 1440px) {
 
- 	.guild_about {
- 		height: 75%;
+	#banner_links {
+		font-size: 1.75em;
+	}
+	
+ 	.section_wrapper {
+ 		top: 52.5%;
+ 		background-position: -2.5em 0em;
  	}
-
-/*  	#section_one {
- 		background-position: 0% 0%;
- 		background-size: contain;
- 	}
-
- 	#section_two {
- 		background-size: contain;
- 	}
-
- 	#section_three {
- 		background-size: contain;
- 	}
-
- 	#section_four {
- 		background-size: contain;
- 	}
- */
 
  	.section_header {
- 		font-size: 3.5em;
+ 		font-size: 3em;
 
  	}
 
@@ -312,7 +304,4 @@ a:hover {
  		font-size: 1.25em;
  	}
 
- 	#content_filter {
- 		height: 300%;
- 	}
  }
