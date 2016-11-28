@@ -126,10 +126,10 @@ a:hover {
 
 #member_header {
 	position: absolute;
-	top: 47.5%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 85%;
+	height: 40%;
 	width: 25%;
 	color: orange;
 	font-size: 3em;
@@ -203,19 +203,6 @@ a:hover {
 	background-size: cover;
 }
 
-
-
-/* .section_divider {
-	position: relative;
-	background-color: white;
-	height: 0.275%;
-	width: 75%;
-	top: 5%;
-	left: 50%;
-	transform: translateX(-60%);
-}
- */
-
 .section_content {
  	position: relative;
  	width: 80%;
@@ -224,10 +211,10 @@ a:hover {
 	color: white;
 	font-size: 1em;
 	line-height: 2em;
- }
+}
 
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
  	#banner_links {
  		display: none;
@@ -304,4 +291,4 @@ a:hover {
  		font-size: 1.25em;
  	}
 
- }
+}
