@@ -290,5 +290,14 @@ a:hover {
  	.section_content {
  		font-size: 1.25em;
  	}
+}
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .section_wrapper {
+     	top: 0%;
+     	left: 0%;
+     	bottom: 20%;
+     	right: 5%;
+     	transform: translate(27.5%, 25%);
+     }
 }

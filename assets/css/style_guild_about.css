@@ -236,6 +236,17 @@ a:hover {
 		height: 67.5%;
 	}
 
+ 	.section_header {
+ 		font-size: 2.25em;
+ 		left: -0%;
+ 	}
+
+ 	.section_content {
+ 		font-size: 1em;
+ 		width: 100%;
+ 		left: 5%;
+ 	}
+
 	#content_filter {
 		height: 270%;
 	}
@@ -254,13 +265,34 @@ a:hover {
  	
  	.section_header {
  		font-size: 3.5em;
+ 		left: -0%;
  	}
 
  	.section_content {
  		font-size: 1.25em;
+ 		width: 100%;
+ 		left: 5%;
  	}
 
  	#content_filter {
  		height: 300%;
  	}
  }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+     .section_wrapper {
+     	top: 0%;
+     	left: 0%;
+     	bottom: 0%;
+     	transform: translate(50%, 7.5%);
+     }
+
+     #two_wrapper {
+     	left: -20%;
+     }
+
+     #four_wrapper {
+     	left: 22.5%;
+     }
+}
